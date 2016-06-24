@@ -15,5 +15,10 @@ from singapore import onemap
 from singapore import nea_api
 ```
 
-Instructions on how to use the individual resources at the above resources
+Instructions on how to use the individual resources at the above resources.
+
+#### Contributors
+
+* [Ruiwen Chua](http://github.com/ruiwen)
+* [David Chua](http://github.com/davidchua)
 
