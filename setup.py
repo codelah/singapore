@@ -10,7 +10,7 @@ setup(
   version = '0.0.1',
   install_requires=[
         'xmltodict','requests',
-        'onemap'
+        'onemap', 'nea_api'
   ],
   description = "Singapore",
   author = 'CodeSG',
