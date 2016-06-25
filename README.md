@@ -2,7 +2,7 @@
 
 This project attempts to consolidate data.gov.sg data under a single unified python library.
 
-Currently, we are linking two individual libraries into this package but we are accepting pull requests for other wrappers of other datasets.
+Currently, we are linking just two individual libraries into this package but we are accepting pull requests for other wrappers of other datasets! Please feel free to fork and modify away!
 
 Currently supported datasets are:
 
