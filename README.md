@@ -12,6 +12,8 @@ Currently supported datasets are:
 To use, all you need to do is to
 
 ```
+$ pip install singapore
+
 # python
 from singapore import onemap
 from singapore import nea_api
