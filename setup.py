@@ -10,7 +10,8 @@ setup(
   version = '0.0.1.1',
   install_requires=[
         'xmltodict','requests',
-        'onemap', 'nea_api'
+        'onemap', 'nea_api',
+        'datagovsg_api'
   ],
   description = "A unified Python API Wrapper for Data.gov.sg services",
   author = 'CodeSG',
