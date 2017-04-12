@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
   name = 'singapore',
-  packages = ['singapore'],
+  packages = ['singapore', 'singapore.onemap', 'singapore.nea_api', 'singapore.datagovsg_api'],
   version = '0.0.1.1',
   install_requires=[
         'xmltodict','requests',
