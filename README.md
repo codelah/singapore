@@ -8,6 +8,7 @@ Currently supported datasets are:
 
 * [Onemap](http://github.com/ruiwen/onemap)
 * [NEA](http://github.com/davidchua/nea_api)
+* [Developers.data.gov.sg](https://github.com/half0wl/datagovsg_api)
 
 To use, all you need to do is to
 
@@ -17,6 +18,7 @@ $ pip install singapore
 # python
 from singapore import onemap
 from singapore import nea_api
+from singapore import datagovsg_api
 ```
 
 #### OneMap
@@ -64,6 +66,24 @@ OrderedDict([('channel', OrderedDict([('title', 'PM2.5 Update'), ('source', 'Air
 ```
 
 For more information, check out the main [README](https://github.com/davidchua/nea_api)
+
+#### datagovsg_api
+
+Sample:
+
+```python
+import datagovsg_api
+
+sg_data = datagovsg_api.AllAPI('API_KEY')
+
+# Get taxi availability
+print(sg_data.taxi_availability().json())
+
+# Get 2-hour weather forecast
+print(sg_data.weather_forecast(duration='2-hour').json())
+```
+
+For more information, check out the main [README](https://github.com/half0wl/datagovsg_api)
 
 #### TODO
 
